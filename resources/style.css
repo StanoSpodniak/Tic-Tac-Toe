@@ -1,0 +1,44 @@
+/* Universal Styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+
+/* Nav */
+h1 {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Main */
+#announcement {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 2em;
+    color: gainsboro;
+}
+
+main {
+    height: 450px;
+    width: 450px;
+    margin: auto;
+}
+
+#playfield {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+#playfield Button {
+    height: 150px;
+    width: 150px;
+    border: none;
+    background-color: snow;
+    font-size: 5em;
+    color: red;
+    border-radius: 10px;
+}
